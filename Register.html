@@ -11,7 +11,44 @@
 <body>
     <div id="container-register">
         <div id="title">
-            <i class="material-icons lock"></i>Register
+            <i class="material-icons lock">Register</i> 
+        </div>
+
+        <form>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">email</i>
+                </div>
+                <input id="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">ID</i>
+                </div>
+                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Pass</i>
+                </div>
+                <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+            </div>
+            <br><br>
+
+
+            <input type="submit" value="Register" />
+        </form>
+
+
+        <div class="register">
+            Do you already have an account?
+            <a href="./login.html"><button id="register-link">Log In</button></a>
         </div>
     </div>
 </body>

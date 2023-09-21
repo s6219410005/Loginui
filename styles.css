@@ -16,7 +16,7 @@ body{
 }
 
 #container-register {
-    background-color: #f0f5efdb;
+    background-color: #ffffff;
     position: relative;
     top: 20%;
     margin: auto;
@@ -90,9 +90,9 @@ input[type=password]:focus {
 }
 
 input[type=email] {
-    color: #949494;
+    color: #0a5104;
     margin: 0;
-    background-color: #373b3d;
+    background-color: #f0eeee;
     border: 1px solid #373b3d;
     padding: 6px 0px;
     border-radius: 3px;
@@ -129,20 +129,6 @@ input[type=email]:focus {
     bottom: 0%;
 }
 
-.privacy a:link {
-    color: #949494;
-    text-decoration: none;
-}
-
-.privacy a:visited {
-    color: #949494;
-    text-decoration: none;
-}
-
-.privacy a:hover {
-    color: #C1C3C6;
-    transition: color 1s;
-}
 
 *:focus {
     outline: none;
