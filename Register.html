@@ -11,13 +11,14 @@
 <body>
     <div id="container-register">
         <div id="title">
+            <img src="./Images/Tmanicon.png" alt="Lock Icon" width="10%">
             <i class="material-icons lock">Register</i> 
         </div>
 
         <form>
             <div class="input">
                 <div class="input-addon">
-                    <i class="material-icons">email</i>
+                    <i class="material-icons">Email</i>
                 </div>
                 <input id="email" placeholder="Email" type="email" required class="validate" autocomplete="off">
             </div>
@@ -28,7 +29,8 @@
                 <div class="input-addon">
                     <i class="material-icons">ID</i>
                 </div>
-                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+                <input type="number" name="" id="" placeholder="Employee ID">
+                <!-- <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off"> -->
             </div>
 
             <div class="clearfix"></div>
@@ -39,7 +41,70 @@
                 </div>
                 <input id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
             </div>
-            <br><br>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">Department</i>
+                </div>
+                <select  id="departmant" placeholder="Department" required class="validate" autocomplete="off">
+                    <option value="1">Q.A</option>
+                    <option value="2">Collecter (ติดตามเก็บเงิน)</option>
+                    <option value="3">CRM</option>
+                    <option value="4">DBU</option>
+                    <option value="5">Food</option>
+                    <option value="6">Import</option>
+                    <option value="7">Export</option>
+                    <option value="9">IT</option>
+                    <option value="10">Modern Trade</option>
+                    <option value="11">Online</option>
+                    <option value="12">P/M</option>
+                    <option value="13">Project Manager</option>
+                    <option value="14">TMT</option>
+                    <option value="15">ขนส่ง</option>
+                    <option value="16">คลังบรรจุผลิตภัณฑ์</option>
+                    <option value="17">คลังวัตถุดิบ</option>
+                    <option value="18">คลังสินค้าสำเร็จรูป</option>
+                    <option value="19">ควบคุมคุณภาพ</option>
+                    <option value="20">ควบคุมคุณภาพด้านจุลชีววิทยา</option>
+                    <option value="21">ควบคุมคุณภาพด้านบรรจุภัณฑ์</option>
+                    <option value="22">งานเอกสารผลิต</option>
+                    <option value="23">จัตซื้อ</option>
+                    <option value="24">เจ้าหน้าที่ความปลอดภัยในการทำงาน</option>
+                    <option value="25">ซ่อมบำรุง</option>
+                    <option value="26">ตรวจบิล</option>
+                    <option value="27">ทรัพยากรบุคคล</option>
+                    <option value="28">ทะเบียนยา</option>
+                    <option value="29">ธุรการขาย</option>
+                    <option value="30">ะุรการควบคุมเอกสาร</option>
+                    <option value="31">นักวิทยาศาสตร์</option>
+                    <option value="32">บรรจุ</option>
+                    <option value="33">บัญชีภาษี</option>
+                    <option value="34">บัญชีลูกหนี้</option>
+                    <option value="35">บัญชีและการเงิน</option>
+                    <option value="36">ประกันคุณภาพวิเคราะห์</option>
+                    <option value="37">ประสานงานการผลิต</option>
+                    <option value="38">ประสานงานขนส่ง</option>
+                    <option value="39">ผลิตภัณฑ์&การตลาด</option>
+                    <option value="40">ผู้จัดการทั่วไป</option>
+                    <option value="41">ผู้ช่วยเภสัชกร</option>
+                    <option value="42">พัฒนาธุรกิจ</option>
+                    <option value="43">เภสัชกรฝ่ายR&D</option>
+                    <option value="44">เภสัชกรฝ่ายควบคุมคุณภาพ</option>
+                    <option value="45">เภสัชกรฝ่ายประกันคุณภาพ</option>
+                    <option value="46">เภสัชกรฝ่ายผลิต</option>
+                    <option value="47">รับ/จ่าย</option>
+                    <option value="48">เลขาผู้บริหาร</option>
+                    <option value="49">วิจัย&พัฒนาผลิตภัณฑ์</option>
+                    <option value="50">ผู้แทนยา</option>
+
+                </select>
+            </div>
+            <br>
+            <div class="remember-me">
+                <input type="checkbox">
+                <span style="color: #ffff">I accept the terms</span>
+            </div>
+            <br>
 
 
             <input type="submit" value="Register" />

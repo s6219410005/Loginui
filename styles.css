@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 body{
     background-color: #eef1ed;
+    
 }
 
 #container-login {
-    background-color: #ffffff;
+    background-color: #0bb10b;
     position: relative;
     top: 20%;
     margin: auto;
@@ -16,20 +17,21 @@ body{
 }
 
 #container-register {
-    background-color: #ffffff;
+    background-color: #0bb10b;
     position: relative;
     top: 20%;
     margin: auto;
     width: 340px;
-    height: 480px;
+    height: 600px;
     border-radius: 0.35em;
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 
+
 #title {
     position: relative;
-    background-color: #e3e6e7;
+    background-color: #ffffff;
     width: 100%;
     padding: 20px 0px;
     border-radius: 0.35em;
@@ -62,6 +64,9 @@ body{
 input[type=checkbox] {
     cursor: pointer;
 }
+input[type=number]{
+
+}
 
 input[type=text] {
     color: #023a08;
@@ -77,6 +82,14 @@ input[type=text]:focus {
 }
 
 input[type=password] {
+    color: #023a08;
+    margin: 0;
+    background-color: #f0eeee;
+    border: 1px solid #0a0000;
+    padding: 6px 0px;
+    border-radius: 3px;
+}
+input[type=number]{
     color: #023a08;
     margin: 0;
     background-color: #f0eeee;
@@ -108,7 +121,7 @@ input[type=email]:focus {
 }
 
 .forgot-password a:link {
-    color: #0a5104;
+    color: #ffff;
     text-decoration: none;
 }
 
@@ -150,7 +163,7 @@ input[type=submit] {
 }
 
 .register {
-    color: #0a5104;
+    color: #ffff;
     margin: auto;
     padding: 16px 0;
     text-align: center;
