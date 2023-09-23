@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Login 365</title>
+            <link rel="stylesheet" href="./styles.css">
+            <link rel="shortcut icon" href="./Images/Tmanicon.png"
+                type="image/x-icon">
+    </head>
+    <body>
+        <div id="container-forget-pass">
+            <div id="title">
+                <img src="./Images/Tmanicon.png" alt="Lock Icon" width="10%">
+                <i class="material-icons lock">Forgot-Password</i> 
+            </div>
+            <form>
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">ID</i>
+                    </div>
+                    <input id="username" placeholder="Username" type="text"
+                        required class="validate" autocomplete="off">
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">New Pass</i>
+                    </div>
+                    <input id="New-password" placeholder="New-Password" type="Newpassword"
+                        required class="validate" autocomplete="off">
+                </div>
+
+                <div class="input">
+                    <div class="input-addon">
+                        <i class="material-icons">Confirm New Pass</i>
+                    </div>
+                    <input id="New-password" placeholder="New-Password" type="password"
+                        required class="validate" autocomplete="off">
+                </div>
+                <br>
+                
+
+                <input type="submit" value="Log In" />
+            </form>
+            <br>
+
+            <div class="forgot-password">
+                <a href="./forgot-pass.html">Forgot your password?</a>
+            </div>
+            <div class="register">
+                Don't have an account yet?
+                <br>
+                <a href="./Register.html"><button id="register-link">Register</button></a>
+            </div>
+            
+        </div>
+    </body>
 </html>
