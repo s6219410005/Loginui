@@ -1,0 +1,49 @@
+.topnav {
+
+    overflow: hidden;
+    float: right;
+}
+
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #c3a3a3f8;
+    color: rgb(0, 0, 0);
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.slider-container {
+    width: 1920px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.slider-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+}
+
+.slider-item {
+    min-width: 100%;
+}
+
+img {
+    width: 100;
+    height: 500px;
+}
+
+img[alt=banner] {
+    width: 100px;
+    height: 100px;
+}
