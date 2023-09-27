@@ -1,66 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="เว็ปไซต์จำหน่ายยา บริษัททีแมน">
-        <meta name="keywords" content="ยา เว็ปไซต์ขายยา">
-        <meta name="author" content="IT tman">
-        <title>Tman pharma</title>
-        <link rel="shortcut icon" href="./Images/Tmanicon.png"
-            type="image/x-icon">
-        <link rel="stylesheet" href="./css/index.css">
 
-    </head>
-    <body>
-        <div id="banner">
-            <img src="./Images/Tmanicon.png" alt="banner" width="100px">
-            <div class="topnav">
-                <a href="./contact.html">Contact</a>
-                <a href="#about">About</a>
-                <a class="active" href="./Index.html">หน้าแรก</a>
-                <script>
-                    (function() {
-                    })();
-                  </script>
-                <input id="Search " type="text">
-            </div>
-            <div class="slider-container">
-                <div class="slider-wrapper" id="slider">
-                    <div class="slider-item"><img src="./Images/medic.jpg"
-                            alt="Image 1" width="1920px" height="500px"></div>
-                    <div class="slider-item"><img src="./Images/medic2.jpeg"
-                            alt="Image 2"></div>
-                    <div class="slider-item"><img src="./Images/medic3.jpg"
-                            alt="Image 3"></div>
-                    <!-- Add more slider items as needed -->
-                </div>
-                <script>
-            const slider = document.getElementById('slider');
-            let currentSlide = 0;
-            const totalSlides = document.querySelectorAll('.slider-item').length;
-        
-            function nextSlide() {
-              currentSlide = (currentSlide + 1) % totalSlides;
-              updateSlider();
-            }
-        
-            function prevSlide() {
-              currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-              updateSlider();
-            }
-        
-            function updateSlider() {
-              const offset = -currentSlide * 100;
-              slider.style.transform = `translateX(${offset}%)`;
-            }
-        
-            // You can add buttons or controls to trigger nextSlide() and prevSlide() functions.
-          </script>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="เว็ปไซต์จำหน่ายยา บริษัททีแมน">
+  <meta name="keywords" content="ยา เว็ปไซต์ขายยา">
+  <meta name="author" content="IT tman">
+  <title>Tman pharma</title>
+  <link rel="shortcut icon" href="./Images/Tmanicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="./css/index.css">
 
-            </div>
-        </div>
+</head>
 
-    </body>
+<body>
+  <div id="banner">
+    <img src="./Images/Tmanicon.png" alt="banner" width="100px">
+    <div class="topnav">
+      <a href="./contact.html">Contact</a>
+      <a href="#about">About</a>
+      <a class="active" href="./Index.html">หน้าแรก</a>
+      <input id="Search " type="text">
+    </div>
+
+
+  </div>
+  </div>
+  <div class="slider">
+    <div class="slides">
+      <div class="slide">
+        <img src="./Images/medic.jpg" alt="Image 1">
+      </div>
+      <div class="slide">
+        <img src="./Images/medic2.jpeg" alt="Image 2">
+      </div>
+      <div class="slide">
+        <img src="./Images/medic3.jpg" alt="Image 3">
+      </div>
+    </div>
+    <button class="prev" onclick="prevSlide()">Previous</button>
+    <button class="next" onclick="nextSlide()">Next</button>
+  </div>
+  <script src="./js/script.js"></script>
+
+</body>
+
 </html>
